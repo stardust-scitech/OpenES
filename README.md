@@ -1,4 +1,4 @@
-# 开源ESP8266服务器/Open ESP8266 server
+# 开源ESP8266服务器/Open ESP8266 Server
 ## 👉 工程环境
 - 安信可科技IDE，本工程版本V0.5
 - [ESP8266_NONOS_SDK，本工程版本V3.0.4](https://github.com/espressif/esp8266_nonos_sdk)
