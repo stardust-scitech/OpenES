@@ -14,7 +14,7 @@
 - 5)IDE导入工程，工具链选择Cygwin GCC
 - 6)Clean project后Build Project
 ## 🚀 技术支持
-- 1)相关技术博客(http://blog.stardust.live)
+- 1)[相关技术博客](http://blog.stardust.live)
 - 2)技术交流群
 <p align="center">
     <span>技术交流群：星尘嵌入式社区</span>
