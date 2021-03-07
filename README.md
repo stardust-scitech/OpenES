@@ -15,7 +15,7 @@
 - 6)Clean project后Build Project
 ## 💻 技术细节
 <span>硬件部分</span>
-'''
+```
 #define UART0 0 //TXD0 GPIO1(D10)  RXD0 GPIO3(D9)
 
 #define I2C_MASTER_SDA_GPIO 4 //GPIO4(D2)
@@ -23,7 +23,7 @@
 
 #define HX710_SCK_PIN 12 //GPIO12(D6)
 #define HX710_SDO_PIN 14 //GPIO14(D5)
-'''
+```
 <span>软件部分</span>
 ## 🚀 技术支持/更多深度科技
 - 1)[相关技术博客](http://blog.stardust.live)
