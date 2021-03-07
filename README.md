@@ -13,3 +13,9 @@
 - 4)将third_party中的Makefile文件名加上后缀bak
 - 5)IDE导入工程，工具链选择Cygwin GCC
 - 6)Clean project后Build Project
+## 🚀 技术支持
+<p align="center">
+  <a href="https://www.baiduyun.wiki">
+    <img class="group_chat_image" alt="星尘嵌入式社区，群号：630581178" width="220" src="../../../../wp-content/themes/Landscape-Stardust/images/group_chat.jpg">
+  </a>
+</p>
