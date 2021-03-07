@@ -13,7 +13,12 @@
 - 4)将third_party中的Makefile文件名加上后缀bak
 - 5)IDE导入工程，工具链选择Cygwin GCC
 - 6)Clean project后Build Project
-## 🚀 技术支持
+## 💻 技术细节
+```
+#define I2C_MASTER_SDA_GPIO 4 //D2
+#define I2C_MASTER_SCL_GPIO 5 //D1
+```
+## 🚀 技术支持/更多深度科技
 - 1)[相关技术博客](http://blog.stardust.live)
 - 2)[技术交流群](https://jq.qq.com/?_wv=1027&amp;k=yrXYcrfz)
 <p align="center">
