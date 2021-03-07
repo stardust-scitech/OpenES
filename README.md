@@ -22,6 +22,6 @@
     <span>群号：630581178</span>
     <br/>
     <a href="https://jq.qq.com/?_wv=1027&amp;k=yrXYcrfz" target="_blank" title="星尘嵌入式社区，群号：630581178">
-        <img alt="星尘嵌入式社区，群号：630581178" width="220" src="./group_chat.jpg" οnerrοr="http://stardust.live/res/img/group_chat_630581178.jpg">
+        <img alt="星尘嵌入式社区，群号：630581178" width="220" src="http://stardust.live/res/img/group_chat_630581178.jpg">
     </a>
 </p>
