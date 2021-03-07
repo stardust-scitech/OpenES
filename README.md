@@ -15,7 +15,5 @@
 - 6)Clean project后Build Project
 ## 🚀 技术支持
 <p align="center">
-  <a href="https://www.baiduyun.wiki">
     <img class="group_chat_image" alt="星尘嵌入式社区，群号：630581178" width="220" src="../../../../wp-content/themes/Landscape-Stardust/images/group_chat.jpg">
-  </a>
 </p>
