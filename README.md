@@ -14,17 +14,7 @@
 - 5)IDE导入工程，工具链选择Cygwin GCC
 - 6)Clean project后Build Project
 ## 💻 技术细节
-<h1>硬件部分</h1>
-```
-#define UART0 0 //TXD0 GPIO1(D10)  RXD0 GPIO3(D9)
 
-#define I2C_MASTER_SDA_GPIO 4 //GPIO4(D2)
-#define I2C_MASTER_SCL_GPIO 5 //GPIO5(D1)
-
-#define HX710_SCK_PIN 12 //GPIO12(D6)
-#define HX710_SDO_PIN 14 //GPIO14(D5)
-```
-<h1>软件部分</h1>
 ## 🚀 技术支持/更多深度科技
 - 1)[相关技术博客](http://blog.stardust.live)
 - 2)[技术交流群](https://jq.qq.com/?_wv=1027&amp;k=yrXYcrfz)
