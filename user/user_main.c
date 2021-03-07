@@ -62,8 +62,8 @@ HX710_Os_Timer_Task(void)
 void ICACHE_FLASH_ATTR
 user_init(void)
 {
-	u8 ssid[36] = {0}; //本地路由器名称
-	u8 pass[36] = {0}; //本地路由器密码
+	u8 ssid[36] = {0}; //本地服务器名称
+	u8 pass[36] = {0}; //本地服务器密码
 	u8 SEC = 126; //扇区编号
 	u8 SEC_OFFSET = 0; //扇区偏移
 
