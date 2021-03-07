@@ -15,8 +15,8 @@
 - 6)Clean project后Build Project
 ## 🚀 技术支持
 <p align="center" style="text-align: center">
-    <h4>技术交流群：星尘嵌入式社区</h4>
-    <h4>群号：630581178</h4>
+    <span>技术交流群：星尘嵌入式社区</span>
+    <span>群号：630581178</span>
     <a href="https://jq.qq.com/?_wv=1027&amp;k=yrXYcrfz" target="_blank" title="星尘嵌入式社区，群号：630581178">
         <img alt="星尘嵌入式社区，群号：630581178" width="220" src="./group_chat.jpg">
     </a>
