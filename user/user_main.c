@@ -78,7 +78,7 @@ user_init(void)
 
 	/*初始化电子秤*/
 	HX710_Init();
-	Get_Maopi(); //称毛皮重量
+	Get_Gross(); //获得电子秤毛重
 
 	/*初始化显示屏*/
 	i2c_master_gpio_init();
