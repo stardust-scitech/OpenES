@@ -42,16 +42,16 @@ HX710_Os_Timer_Task(void)
 	{
 		for(i=0; i<(val_pre_count-val_cur_count); i++)
 		{
-			OLED_ShowStr(6*(i+val_cur_count), 2, " ", 1);
+			OLED_ShowStr(6*(i+val_cur_count), 2, " ", LEFT, 6*8, NORMAL);
 		}
 	}
 	val_pre_count = val_cur_count;
 
 	/*显示电子秤示数和摄像头传输的数据*/
-	OLED_ShowStr(0, 0, "weight:", 1);
-	OLED_6x8Int(0, 2, weight);
-	OLED_ShowStr(0, 4, "color:", 1);
-	OLED_6x8Int(0, 6, USART0_RX_BUF[0]);
+	OLED_ShowStr(0, 0, "weight", LEFT, 6*8, NORMAL);
+	OLED_ShowInt(0, 2, weight, LEFT, 6*8, NORMAL);
+	OLED_ShowStr(0, 4, "color", LEFT, 6*8, NORMAL);
+	OLED_ShowInt(0, 6, USART0_RX_BUF[0], LEFT, 6*8, NORMAL);
 }
 
 /**
@@ -81,13 +81,10 @@ user_init(void)
 	Get_Gross(); //获得电子秤毛重
 
 	/*初始化显示屏*/
-	i2c_master_gpio_init();
 	OLED_Init();
-	OLED_ShowStr(0, 3, "System Start", 2);
-	os_delay_us(100000);
-	os_delay_us(100000);
-	os_delay_us(100000);
-	os_delay_us(100000);
+
+	OLED_ShowStr(0, 3, "System Start", LEFT, 8*16, NORMAL);
+	delay_ms(300);
 	OLED_CLS();
 
     /*获取flash存储的本地路由器和名称和密码*/
@@ -113,7 +110,7 @@ user_init(void)
 	os_timer_setfn(&HX710_Os_Timer, (os_timer_func_t *)HX710_Os_Timer_Task, NULL);
 	os_timer_arm(&HX710_Os_Timer, 200, 1);
 
-	system_init_done_cb(To_Scan);	//系统初始化完成之后扫描WiFi
+	system_init_done_cb(Wifi_Scan);	//系统初始化完成之后扫描WiFi
 }
 
 /**********初始化内存分配-Start**********/

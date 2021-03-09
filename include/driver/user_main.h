@@ -16,11 +16,13 @@
 #include "osapi.h"
 #include "ets_sys.h"
 #include "uart.h"
+#include "c_types.h"
 
 #include "user_interface.h"
+#include "user_http.h"
 #include "user_server.h"
 #include "user_mqtt.h"
-#include "i2c_oled.h"
+#include "OLED.h"
 #include "HX710.h"
 
 #define DEBUG TRUE
