@@ -1,15 +1,12 @@
 /**
   ******************************************************************************
-  * @file OLED.h
-  * @author Kevin Brooks
-  * @version 1.0.0
-  * @date 2019-12-29
-  * @email fanchen995@gmail.com
-  * @license Copyright (C) 2016, Stardust Studio,  All Rights Reserved
-  * @brief   This file contains all the functions prototypes for the OLED interface
-  ******************************************************************************
-  * @attention
-  *
+  * @file    OLED.h
+  * @brief   This file contains all the functions prototypes for the business logic.
+  * @author  Kevin Brooks
+  * @version 1.0
+  * @date    2019_12_19
+  * @email   kevin@stardust.live
+  * @license Copyright (C) 2018, Stardust Studio,  All Rights Reserved
   ******************************************************************************
   */
 

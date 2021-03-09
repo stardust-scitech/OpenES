@@ -1,14 +1,12 @@
 /**
   ******************************************************************************
-  * @file OLED.c
-  * @author Kevin Brooks
-  * @version 1.0.0
-  * @date 2019-12-29
-  * @email fanchen995@gmail.com
-  * @license Copyright (C) 2016, Stardust Studio,  All Rights Reserved
-  * @brief   This file provides all the OLED firmware functions.
-  ******************************************************************************
-  * @attention
+  * @file    OLED.c
+  * @brief   This file provides all the business logic functions.
+  * @author  Kevin Brooks
+  * @version 1.0
+  * @date    2019-12-29
+  * @email   kevin@stardust.live
+  * @license Copyright (C) 2018, Stardust Studio,  All Rights Reserved
   ******************************************************************************
   */
 
