@@ -4,7 +4,7 @@
   * @brief   This file provides all the business logic functions.
   * @author  Kevin Brooks
   * @version 1.0
-  * @date    2019-12-29
+  * @date    2019_12_29
   * @email   kevin@stardust.live
   * @license Copyright (C) 2018, Stardust Studio,  All Rights Reserved
   ******************************************************************************

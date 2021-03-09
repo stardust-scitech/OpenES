@@ -21,13 +21,15 @@ extern const unsigned char F8X16[];
 
 #define OLED_DISPLAY_TYPE 0
 
-//#define OLED_SCL_MUX 		PERIPHS_IO_MUX_GPIO5_U
-//#define OLED_SCL_FUNC		FUNC_GPIO5
-//#define OLED_SCL_PIN		5
-//
-//#define OLED_SDA_MUX 		PERIPHS_IO_MUX_GPIO4_U
-//#define OLED_SDA_FUNC		FUNC_GPIO4
-//#define OLED_SDA_PIN		4
+/*
+#define OLED_SCL_MUX 		PERIPHS_IO_MUX_GPIO5_U
+#define OLED_SCL_FUNC		FUNC_GPIO5
+#define OLED_SCL_PIN		5
+
+#define OLED_SDA_MUX 		PERIPHS_IO_MUX_GPIO4_U
+#define OLED_SDA_FUNC		FUNC_GPIO4
+#define OLED_SDA_PIN		4
+*/
 
 #define OLED_ADDRESS	0x78 //By adjusting 0r resistance, the screen can have two addresses 0x78 and 0x7a -- default 0x78
 

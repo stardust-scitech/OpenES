@@ -1,3 +1,15 @@
+/**
+  ******************************************************************************
+  * @file    user_http.c
+  * @brief   This file provides all the business logic functions.
+  * @author  Kevin Brooks
+  * @version 1.0
+  * @date    2021_03_09
+  * @email   kevin@stardust.live
+  * @license Copyright (C) 2018, Stardust Studio,  All Rights Reserved
+  ******************************************************************************
+  */
+
 #include "user_http.h"
 
 /**
