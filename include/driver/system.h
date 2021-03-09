@@ -1,9 +1,14 @@
-/*
- * system.h
- *
- *  Created on: 2021年1月23日
- *      Author: kevin
- */
+/**
+  ******************************************************************************
+  * @file    system.h
+  * @brief   This file contains all the functions prototypes for the business logic.
+  * @author  Kevin Brooks
+  * @version 1.0
+  * @date    2021_01_23
+  * @email   kevin@stardust.live
+  * @license Copyright (C) 2018, Stardust Studio,  All Rights Reserved
+  ******************************************************************************
+  */
 
 #ifndef SYSTEM_H_
 #define SYSTEM_H_
