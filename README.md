@@ -49,6 +49,8 @@
 ```
 <span>ESP8266软件部分</span>
 ```
+//本地服务器IP地址：192.168.4.1
+
 u8 USART0_TX_BUF[256]; //USART0数据发送缓冲区
 u8 USART0_RX_BUF[256]; //USART0数据接收缓冲区
 
